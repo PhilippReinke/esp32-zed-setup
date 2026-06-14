@@ -11,3 +11,6 @@ compile_commands.json
 # mac
 .DS_Store
 Thumbs.db
+
+# credentials
+src/secrets.h
