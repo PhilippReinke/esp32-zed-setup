@@ -1,0 +1,12 @@
+CompileFlags:
+  Remove:
+    - -fstrict-volatile-bitfields
+    - -fno-tree-switch-conversion
+    - -mlongcalls
+    - -mlong-calls
+    - -mtext-section-literals
+
+Diagnostics:
+  Suppress:
+    - drv_unknown_argument_with_suggestion
+    - drv_unknown_argument

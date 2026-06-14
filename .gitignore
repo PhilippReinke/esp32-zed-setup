@@ -1,0 +1,13 @@
+# platform io
+.pio/
+.pioenvs/
+.piolibdeps/
+.clangd/
+
+# lsp
+compile_commands.json
+.cache/
+
+# mac
+.DS_Store
+Thumbs.db

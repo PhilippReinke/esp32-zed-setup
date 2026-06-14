@@ -1,0 +1,30 @@
+[
+  {
+    "label": "pio: Build Firmware",
+    "command": "pio run",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+  },
+  {
+    "label": "pio: Upload to Board",
+    "command": "pio run --target upload",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+  },
+  {
+    "label": "pio: Monitor Serial Port",
+    "command": "pio device monitor",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+  },
+  {
+    "label": "pio: Generate LSP DB (clean diagnostics)",
+    "command": "pio run -t compiledb",
+    "use_new_terminal": false,
+    "allow_concurrent_runs": false,
+    "reveal": "always",
+  },
+]
