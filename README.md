@@ -1,5 +1,11 @@
 # ESP32 Development
 
+**Bluetooth Example**
+
+- Pair Android phone with "ESP32-LED".
+- Download "Serial Bluetooth Terminal" app for Android.
+- Send "on" or "off".
+
 ## Setup
 
 Zed editor on mac with PlatformIO.
